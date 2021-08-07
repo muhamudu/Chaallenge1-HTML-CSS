@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 5px; */
+}
+.cards {
+    width: 60%;
+    margin-left: 17%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 0px;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.card {
+    padding: 35px;
+    display: grid;
+    color: #ffffff;
+}
+.card h2{
+    color: #ffff;
+    font-weight: bold;
+}
+.card button {
+    background-color: #ffff;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border: #ffffff;
+}
+.card1 {
+    background-color: #e28525;
+    border-radius: 10px 0px 0px 10px;
+}
+.card1 button{
+    color: #e28525;
+}
+.card2 {
+    background-color: #016972;
+}
+.card2 button{
+    color: #016972;
+}
+.card3 {
+    background-color: #00403f;
+    border-radius: 0px 10px 10px 0px;
+}
+.card2 button{
+    color: #00403f;
+}
+@media screen and (max-width: 768px){
+    .card1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card3 {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+   
