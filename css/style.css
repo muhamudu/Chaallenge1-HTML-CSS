@@ -64,6 +64,10 @@ body{
     color: #00403f;
 }
 @media screen and (max-width: 768px){
+    .cards{
+        width: 90%;
+        margin-left: -22px;
+    }
     .card1 {
         border-radius: 10px 10px 0px 0px;
     }
